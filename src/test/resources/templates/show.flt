@@ -1,0 +1,10 @@
+
+<@extends name='layout.ftl'>
+
+    <@override block="title"><@parent/>:sub title:<@parent/></@override>
+
+    <@override block="content">sub content</@override>
+
+    <@append block="content">append<@parent/></@append>
+
+</@extends>
